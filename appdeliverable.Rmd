@@ -1,0 +1,11 @@
+---
+title: "Group 9 Introduction"
+description: |
+  VAST Challenge 2021- Mini Challenge 3
+  Welcome to Group 9 project page
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual 

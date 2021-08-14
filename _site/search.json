@@ -6,7 +6,15 @@
       "description": "VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page",
       "author": [],
       "contents": "\r\n This website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual analytics can be leveraged to provide important hints for Kronos incident scenarios. The report covers the topic of text mining, text analytics and text visualization. Besides, a full step user guide is also provided for easy replication. Moreover, the report concludes the concerns and limitations of in this application. For readers wishing to get more context quickly on the application, you may refer to the…..\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-14T22:28:00+08:00"
+      "last_modified": "2021-08-14T23:47:28+08:00"
+    },
+    {
+      "path": "appdeliverable.html",
+      "title": "Group 9 Introduction",
+      "description": "VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page",
+      "author": [],
+      "contents": "\r\nThis website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-14T23:47:30+08:00"
     },
     {
       "path": "index.html",
@@ -14,7 +22,23 @@
       "description": "Mini Challeng 3 Task Group 9\n",
       "author": [],
       "contents": "\r\nThis website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual analytics can be leveraged to provide important hints for Kronos incident scenarios. The report covers the topic of text mining, text analytics and text visualization. Besides, a full step user guide is also provided for easy replication. Moreover, the report concludes the concerns and limitations of in this application. For readers wishing to get more context quickly on the application, you may refer to the…..\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-14T21:29:44+08:00"
+      "last_modified": "2021-08-14T23:47:31+08:00"
+    },
+    {
+      "path": "poster.html",
+      "title": "Group 9 Introduction",
+      "description": "VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-14T23:47:59+08:00"
+    },
+    {
+      "path": "report.html",
+      "title": "Group 9 Introduction",
+      "description": "VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-14T23:47:34+08:00"
     }
   ],
   "collections": []
