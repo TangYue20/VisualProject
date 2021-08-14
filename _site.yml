@@ -5,8 +5,14 @@ description: |
 output_dir: "_site"
 navbar:
   right:
-    - text: "Home"
+    - text: "Introduction"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Report"
+      href: report.html
+    - text: "APP & Deliverable"
+      href: "app & deliverable.html"
+    - text: "Poster"
+      href: poster.html
 output: distill::distill_article
