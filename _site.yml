@@ -13,11 +13,6 @@ navbar:
       href: report.html
     - text: "APP & Deliverable"
       href: "app & deliverable.html"
-      menu:
-        - text: "Dashboard"
-          href: dashboard.html
-        - text: "userguide"
-          href: uderguide.html
     - text: "Poster"
       href: poster.html
       
