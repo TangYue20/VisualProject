@@ -12,9 +12,11 @@ navbar:
     - text: "Report"
       href: report.html
     - text: "APP & Deliverable"
-      href: "app & deliverable.html"
+      href: app & deliverable.html
     - text: "Poster"
       href: poster.html
+    - href: _footer.html
       
       
 output: distill::distill_article
+
