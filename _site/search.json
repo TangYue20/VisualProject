@@ -18,11 +18,11 @@
     },
     {
       "path": "index.html",
-      "title": "VAST Challeng 2021",
-      "description": "Mini Challeng 3 Task Group 9\n",
+      "title": "Evaluating Risk level using Text Visualisation",
+      "description": "The contents in the text analysis and visualization project.\n",
       "author": [],
-      "contents": "\r\nThis website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual analytics can be leveraged to provide important hints for Kronos incident scenarios. The report covers the topic of text mining, text analytics and text visualization. Besides, a full step user guide is also provided for easy replication. Moreover, the report concludes the concerns and limitations of in this application. For readers wishing to get more context quickly on the application, you may refer to the…..\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-14T23:47:31+08:00"
+      "contents": "\r\n Welcome to Group 9 project page!\r\nThis website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual analytics can be leveraged to provide important hints for Kronos incident scenarios. The report covers the topic of text mining, text analytics and text visualization. Besides, a full step user guide is also provided for easy replication. Moreover, the report concludes the concerns and limitations of in this application. For readers wishing to get more context quickly on the application, you may refer to the…..\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-15T00:09:54+08:00"
     },
     {
       "path": "poster.html",
