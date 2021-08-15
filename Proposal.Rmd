@@ -7,8 +7,6 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The link of project proposal is: [Project Proposal](https://team9-project-proposal.netlify.app/posts/2021-06-13-team9-project-proposal/)
-
 # 1.0 Background
   
 ### Introduction
