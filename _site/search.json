@@ -6,7 +6,7 @@
       "description": "This module researchs VAST Challenge 2021- Mini Challenge 3\nGroup 9 Introduction",
       "author": [],
       "contents": "\r\n Welcome to Group 9 project page!\r\nThis website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual analytics can be leveraged to provide important hints for Kronos incident scenarios. The report covers the topic of text mining, text analytics and text visualization. Besides, a full step user guide is also provided for easy replication. Moreover, the report concludes the concerns and limitations of in this application. For readers wishing to get more context quickly on the application, you may refer to the…..\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:27:05+08:00"
+      "last_modified": "2021-08-15T23:00:22+08:00"
     },
     {
       "path": "appdeliverable.html",
@@ -14,15 +14,15 @@
       "description": "VAST Challenge 2021- Mini Challenge 3",
       "author": [],
       "contents": "\r\nThe user guide\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:21:51+08:00"
+      "last_modified": "2021-08-15T23:00:23+08:00"
     },
     {
       "path": "index.html",
       "title": "IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021",
       "description": "The contents in the text analysis and visualization project.\n",
       "author": [],
-      "contents": "\r\n1.Abstract\r\nThe 2021 Visual Analytics Science and Technology (VAST) Challenge presented researchers with a single fictitious scenario: the disappearance of staff members of the GASTech oil and gas company on location on the island of Kronos. A group named the Protectors of Kronos (POK) was the prime suspect in the disappearance. Three mini-challenges and a grand challenge were offered. For more information, please see VAST Challenge 2021.\r\nThis module will research Mini-Challenge 3 which includes multiple types of text data for participants to feature real-time streaming social media and emergency service data for participants to provide hostage and kidnapper information.This challenge has 3 tasks and questions and asked the participants to integrate results to evaluate the changing levels of risk to the public and recommend actions. The visualization application is created by R shiny as the platform. The insights derived could provide useful information and guides how to identify important messages online, which would helpful for polices to tell useful information and discard unless information. Besides, the evaluation of risk would provide important guided for keeping public security.\r\n2.Design Framework\r\nThe application uses the free and open-source R language that offers a thriving programming environment for statistical and graphical analysis. Our 4 design considerations for development:\r\nPerforming calculations/logic within R for reproducibility,\r\nUsing standard R packages on the Comprehensive R Archive Network(CRAN) for supportability.\r\nUsing Shiny to webify the codes for simplicity.\r\nProviding options and visualizations for interactivity.\r\n3.Data Source\r\nThree datasets in Mini-Challenge 3 are provided:\r\nMicroblog records that have been identified by automated filters as being potentially relevant to the ongoing incident.\r\nText transcripts of emergency dispatches by the Abila, Kronos local police and fire departments.\r\nmaps of Abila and background documents.\r\nThe data of Microblog and text transcripts of emergency dispatches are found in three segments:\r\nSegment 1 :“csv-1700-1830.csv” - covers the time period from 1700 to 1830 Abila time on January 23.\r\nSegment 2: \"csv-1831-2000.csv’- covers the time period from 1830 to 2000 Abila time on January 23.\r\nSegment 3: “csv-2001-2131.csv” - covers the time period from 2000 to shortly after 2130 Abila time on January 23.\r\nThe number of “Total Message”, “Message Blog” and “Call Center” is 4063, 3872 and 191.\r\n4.Data Preparation\r\nAll data preparations are performed using R. We combined the data of Microblog and text transcripts and convert the date variable to right time format, which is necessary for the following analysis. And based on content of data provided, we classified records into three segments: Junk, Typical_Chatter and Meaningful records.\r\nJunk: Referred to advertisements or financial purpose reports.\r\nMeaningful: Refers to informative records which spread real news about ongoing or impending events happen in Aliba.\r\nTypical Chatter: Represents no meaningful and irrelevant or inappropriate messages post online.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:31:01+08:00"
+      "contents": "\r\n1.Abstract\r\nThe 2021 Visual Analytics Science and Technology (VAST) Challenge presented researchers with a single fictitious scenario: the disappearance of staff members of the GASTech oil and gas company on location on the island of Kronos. A group named the Protectors of Kronos (POK) was the prime suspect in the disappearance. Three mini-challenges and a grand challenge were offered. For more information, please see VAST Challenge 2021.\r\nThis module will research Mini-Challenge 3 which includes multiple types of text data for participants to feature real-time streaming social media and emergency service data for participants to provide hostage and kidnapper information.This challenge has 3 tasks and questions and asked the participants to integrate results to evaluate the changing levels of risk to the public and recommend actions. The visualization application is created by R shiny as the platform. The insights derived could provide useful information and guides how to identify important messages online, which would helpful for polices to tell useful information and discard unless information. Besides, the evaluation of risk would provide important guided for keeping public security.\r\n2. Obejctive\r\nThe application uses the free and open-source R language that offers a thriving programming environment for statistical and graphical analysis. Our 4 design considerations for development:\r\nPerforming calculations/logic within R for reproducibility,\r\nUsing standard R packages on the Comprehensive R Archive Network(CRAN) for supportability.\r\nUsing Shiny to webify the codes for simplicity.\r\nProviding options and visualizations for interactivity.\r\n3.Data Source\r\nThree datasets in Mini-Challenge 3 are provided:\r\nMicroblog records that have been identified by automated filters as being potentially relevant to the ongoing incident.\r\nText transcripts of emergency dispatches by the Abila, Kronos local police and fire departments.\r\nmaps of Abila and background documents.\r\nThe data of Microblog and text transcripts of emergency dispatches are found in three segments:\r\nSegment 1 :“csv-1700-1830.csv” - covers the time period from 1700 to 1830 Abila time on January 23.\r\nSegment 2: \"csv-1831-2000.csv’- covers the time period from 1830 to 2000 Abila time on January 23.\r\nSegment 3: “csv-2001-2131.csv” - covers the time period from 2000 to shortly after 2130 Abila time on January 23.\r\nThe number of “Total Message”, “Message Blog” and “Call Center” is 4063, 3872 and 191.\r\n4.Data Preparation\r\nAll data preparations are performed using R. We combined the data of Microblog and text transcripts and convert the date variable to right time format, which is necessary for the following analysis. And based on content of data provided, we classified records into three segments: Junk, Typical_Chatter and Meaningful records.\r\nJunk: Referred to advertisements or financial purpose reports.\r\nMeaningful: Refers to informative records which spread real news about ongoing or impending events happen in Aliba.\r\nTypical Chatter: Represents no meaningful and irrelevant or inappropriate messages post online.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-15T23:01:13+08:00"
     },
     {
       "path": "poster.html",
@@ -30,15 +30,23 @@
       "description": "VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:09:06+08:00"
+      "last_modified": "2021-08-15T23:00:26+08:00"
+    },
+    {
+      "path": "Proposal.html",
+      "title": "Project Proposal",
+      "description": "VAST Challenge 2021- Mini Challenge 3",
+      "author": [],
+      "contents": "\r\nThe link of project proposal is: Project Proposal\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-15T23:02:56+08:00"
     },
     {
       "path": "report.html",
-      "title": "Report",
+      "title": "Project Report",
       "description": "VAST Challenge 2021- Mini Challenge 3",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:37:17+08:00"
+      "last_modified": "2021-08-15T23:00:29+08:00"
     },
     {
       "path": "rshiny.html",
@@ -46,7 +54,7 @@
       "description": "VAST Challenge 2021- Mini Challenge 3",
       "author": [],
       "contents": "\r\nThe link of R Shiny is: R Shiny\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:44:17+08:00"
+      "last_modified": "2021-08-15T23:00:30+08:00"
     }
   ],
   "collections": []

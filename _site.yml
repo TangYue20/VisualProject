@@ -17,6 +17,8 @@ navbar:
       href: rshiny.html
     - text: "Poster"
       href: poster.html
+    - text: "Proposal"
+      href: Proposal.html
       
 output: distill::distill_article
 

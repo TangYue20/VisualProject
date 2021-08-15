@@ -19,7 +19,7 @@ The 2021 Visual Analytics Science and Technology (VAST) Challenge presented rese
 
 This module will research Mini-Challenge 3 which includes multiple types of text data for participants to feature real-time streaming social media and emergency service data for participants to provide hostage and kidnapper information.This challenge has 3 tasks and questions and asked the participants to integrate results to evaluate the changing levels of risk to the public and recommend actions. The visualization application is created by R shiny as the platform. The insights derived could provide useful information and guides how to identify important messages online, which would helpful for polices to tell useful information and discard unless information. Besides, the evaluation of risk would provide important guided for keeping public security.
 
-# 2.Design Framework
+# 2. Obejctive
 
 The application uses the free and open-source R language that offers a thriving programming environment for statistical and graphical analysis. Our 4 design considerations for development:
 
