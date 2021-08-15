@@ -1,7 +1,7 @@
 name: "VisualProject"
 title: " ISSS608 Visual Analytics and Applications"
 description: |
-  My Website
+ My Website
 output_dir: "_site"
 navbar:
   right:
@@ -15,7 +15,6 @@ navbar:
       href: appdeliverable.html
     - text: "Poster"
       href: poster.html
-    - href: _footer.html
       
 output: distill::distill_article
 
