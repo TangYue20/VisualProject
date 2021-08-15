@@ -11,8 +11,10 @@ navbar:
       href: about.html
     - text: "Report"
       href: report.html
-    - text: "APP & Deliverable"
+    - text: "User Guide"
       href: appdeliverable.html
+    - text: "R shiny"
+      href: rshiny.html
     - text: "Poster"
       href: poster.html
       

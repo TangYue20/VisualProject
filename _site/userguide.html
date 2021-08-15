@@ -86,29 +86,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title> ISSS608 Visual Analytics and Applications: IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021</title>
+  <title> ISSS608 Visual Analytics and Applications: Group 9 Introduction</title>
   
-  <meta property="description" itemprop="description" content="The contents in the text analysis and visualization project."/>
+  <meta property="description" itemprop="description" content="VAST Challenge 2021- Mini Challenge 3&#10;Welcome to Group 9 project page"/>
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content=" ISSS608 Visual Analytics and Applications: IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021"/>
+  <meta property="og:title" content=" ISSS608 Visual Analytics and Applications: Group 9 Introduction"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="The contents in the text analysis and visualization project."/>
+  <meta property="og:description" content="VAST Challenge 2021- Mini Challenge 3&#10;Welcome to Group 9 project page"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content=" ISSS608 Visual Analytics and Applications"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content=" ISSS608 Visual Analytics and Applications: IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021"/>
-  <meta property="twitter:description" content="The contents in the text analysis and visualization project."/>
+  <meta property="twitter:title" content=" ISSS608 Visual Analytics and Applications: Group 9 Introduction"/>
+  <meta property="twitter:description" content="VAST Challenge 2021- Mini Challenge 3&#10;Welcome to Group 9 project page"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021"]},{"type":"character","attributes":{},"value":["The contents in the text analysis and visualization project.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Group 9 Introduction"]},{"type":"character","attributes":{},"value":["VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2052,7 +2052,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021","description":"The contents in the text analysis and visualization project.","authors":[]}
+{"title":"Group 9 Introduction","description":"VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2089,46 +2089,17 @@ APP &amp; Deliverable
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>IVAD: A Interactive Visual Analytics Dashboard for Exploring VAST Challenge 2021</h1>
+<h1>Group 9 Introduction</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>The contents in the text analysis and visualization project.</p></p>
+<p><p>VAST Challenge 2021- Mini Challenge 3 Welcome to Group 9 project page</p></p>
 </div>
 
 
 <div class="d-article">
-<h2 id="abstract">1.Abstract</h2>
-<p>The 2021 Visual Analytics Science and Technology (VAST) Challenge presented researchers with a single fictitious scenario: the disappearance of staff members of the GASTech oil and gas company on location on the island of Kronos. A group named the Protectors of Kronos (POK) was the prime suspect in the disappearance. Three mini-challenges and a grand challenge were offered. For more information, please see VAST Challenge 2021.</p>
-<p>This module will research Mini-Challenge 3 which includes multiple types of text data for participants to feature real-time streaming social media and emergency service data for participants to provide hostage and kidnapper information.This challenge has 3 tasks and questions and asked the participants to integrate results to evaluate the changing levels of risk to the public and recommend actions. The visualization application is created by R shiny as the platform. The insights derived could provide useful information and guides how to identify important messages online, which would helpful for polices to tell useful information and discard unless information. Besides, the evaluation of risk would provide important guided for keeping public security.</p>
-<h1 id="design-framework">2.Design Framework</h1>
-<p>The application uses the free and open-source R language that offers a thriving programming environment for statistical and graphical analysis. Our 4 design considerations for development:</p>
-<ul>
-<li><p>Performing calculations/logic within R for reproducibility,</p></li>
-<li><p>Using standard R packages on the Comprehensive R Archive Network(CRAN) for supportability.</p></li>
-<li><p>Using Shiny to webify the codes for simplicity.</p></li>
-<li><p>Providing options and visualizations for interactivity.</p></li>
-</ul>
-<h2 id="data-source">3.Data Source</h2>
-<p>Three datasets in Mini-Challenge 3 are provided:</p>
-<ul>
-<li>Microblog records that have been identified by automated filters as being potentially relevant to the ongoing incident.</li>
-<li>Text transcripts of emergency dispatches by the Abila, Kronos local police and fire departments.</li>
-<li>maps of Abila and background documents.</li>
-</ul>
-<p>The data of Microblog and text transcripts of emergency dispatches are found in three segments:</p>
-<ul>
-<li><p>Segment 1 :“csv-1700-1830.csv” - covers the time period from 1700 to 1830 Abila time on January 23.</p></li>
-<li><p>Segment 2: "csv-1831-2000.csv’- covers the time period from 1830 to 2000 Abila time on January 23.</p></li>
-<li><p>Segment 3: “csv-2001-2131.csv” - covers the time period from 2000 to shortly after 2130 Abila time on January 23.</p></li>
-</ul>
-<p>The number of “Total Message”, “Message Blog” and “Call Center” is 4063, 3872 and 191.</p>
-<h2 id="data-preparation">4.Data Preparation</h2>
-<p>All data preparations are performed using R. We combined the data of Microblog and text transcripts and convert the date variable to right time format, which is necessary for the following analysis. And based on content of data provided, we classified records into three segments: Junk, Typical_Chatter and Meaningful records.</p>
-<ul>
-<li>Junk: Referred to advertisements or financial purpose reports.</li>
-<li>Meaningful: Refers to informative records which spread real news about ongoing or impending events happen in Aliba.</li>
-<li>Typical Chatter: Represents no meaningful and irrelevant or inappropriate messages post online.</li>
-</ul>
+<p><img src="image/Userguide_1.jpg" /></p>
+<p><img src="image/Userguide_2.jpg" /> <img src="image/Userguide_3.jpg" /> <img src="image/Userguide_4.jpg" /> <img src="image/Userguide_5.jpg" /> <img src="image/Userguide_6.jpg" /></p>
+<p><img src="image/Userguide_7.jpg" /></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

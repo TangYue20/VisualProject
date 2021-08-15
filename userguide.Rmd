@@ -1,23 +1,21 @@
 ---
 title: "Group 9 Introduction"
 description: |
- VAST Challenge 2021- Mini Challenge 3
- Welcome to Group 9 project page
+  VAST Challenge 2021- Mini Challenge 3
+  Welcome to Group 9 project page
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The user guide 
-
 ![](image/Userguide_1.jpg)
+
 ![](image/Userguide_2.jpg)
-
 ![](image/Userguide_3.jpg)
-
 ![](image/Userguide_4.jpg)
 ![](image/Userguide_5.jpg)
 ![](image/Userguide_6.jpg)
+
 ![](image/Userguide_7.jpg)
 
 

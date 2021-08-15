@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![](image/VAposter (1).jpg)
+The link of R Shiny is: 
 
 
 
