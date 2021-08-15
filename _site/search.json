@@ -6,15 +6,15 @@
       "description": "This module researchs VAST Challenge 2021- Mini Challenge 3\nGroup 9 Introduction",
       "author": [],
       "contents": "\r\n Welcome to Group 9 project page!\r\nThis website introduces the work carried out to develop an interactive visualization and application to solve VAST Challenge 2021 problems. The framework and presentation for visual analytics are R Shiny application. The report illustrates the motivation behind and application, exploring how visual analytics can be leveraged to provide important hints for Kronos incident scenarios. The report covers the topic of text mining, text analytics and text visualization. Besides, a full step user guide is also provided for easy replication. Moreover, the report concludes the concerns and limitations of in this application. For readers wishing to get more context quickly on the application, you may refer to the…..\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:16:43+08:00"
+      "last_modified": "2021-08-15T22:22:42+08:00"
     },
     {
       "path": "appdeliverable.html",
-      "title": "Group 9 Introduction",
-      "description": "VAST Challenge 2021- Mini Challenge 3\nWelcome to Group 9 project page",
+      "title": "User guide",
+      "description": "VAST Challenge 2021- Mini Challenge 3",
       "author": [],
       "contents": "\r\nThe user guide\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-15T22:09:03+08:00"
+      "last_modified": "2021-08-15T22:21:51+08:00"
     },
     {
       "path": "index.html",
