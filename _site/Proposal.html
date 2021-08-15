@@ -86,14 +86,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title> ISSS608 Visual Analytics and Applications: Project Proposal</title>
+  <title> ISSS608 Visual Analytics and Applications: Team 9 Project Proposal</title>
   
   <meta property="description" itemprop="description" content="VAST Challenge 2021- Mini Challenge 3"/>
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content=" ISSS608 Visual Analytics and Applications: Project Proposal"/>
+  <meta property="og:title" content=" ISSS608 Visual Analytics and Applications: Team 9 Project Proposal"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="VAST Challenge 2021- Mini Challenge 3"/>
   <meta property="og:locale" content="en_US"/>
@@ -101,14 +101,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content=" ISSS608 Visual Analytics and Applications: Project Proposal"/>
+  <meta property="twitter:title" content=" ISSS608 Visual Analytics and Applications: Team 9 Project Proposal"/>
   <meta property="twitter:description" content="VAST Challenge 2021- Mini Challenge 3"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Project Proposal"]},{"type":"character","attributes":{},"value":["VAST Challenge 2021- Mini Challenge 3"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Team 9 Project Proposal"]},{"type":"character","attributes":{},"value":["VAST Challenge 2021- Mini Challenge 3"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2052,7 +2052,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Project Proposal","description":"VAST Challenge 2021- Mini Challenge 3","authors":[]}
+{"title":"Team 9 Project Proposal","description":"VAST Challenge 2021- Mini Challenge 3","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2079,7 +2079,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Project Proposal</h1>
+<h1>Team 9 Project Proposal</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 <p><p>VAST Challenge 2021- Mini Challenge 3</p></p>
@@ -2088,6 +2088,59 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <p>The link of project proposal is: <a href="https://team9-project-proposal.netlify.app/posts/2021-06-13-team9-project-proposal/">Project Proposal</a></p>
+<h1 id="background">1.0 Background</h1>
+<h3 id="introduction">Introduction</h3>
+<p>In the country island of Kronos, the increasing noxious effects on health and farming have been related to the uncontrolled activity of GAStech, a natural gas operator, supported by corrupt government officials. On January 20th, 2014, a corporate meeting is held to celebrate the new-found fortune because of the initial public offering of the company. However, a series of rare events occur that lead to the disappearance of several employees. The Protectors of Kronos (POK), a social movement organization that has been fighting against water contamination and government corruption, is suspected in the disappearance.</p>
+<p>As analysts, we were assigned with several tasks in order to identify risks and how they could have been mitigated more effectively.</p>
+<h3 id="objective">Objective</h3>
+<p>Using data and visual analytics to evaluate the changing levels of risk to the public and recommend actions for first responder:</p>
+<ul>
+<li>Distinguish meaningful event reports from typical chatter from junk or spam.</li>
+<li>Evaluate the level of the risk to the public evolves over the course of the evening. Consider the potential consequences of the situation and the number of people who could be affected.</li>
+<li>Determine the appropriate location for first responders.</li>
+<li>The differences between dealing with this challenge in 2014 and dealing with it now.</li>
+</ul>
+<hr />
+<h1 id="data-source">2.0 Data Source</h1>
+<p>The data source is from <a href="http://visualdata.wustl.edu/varepository/VAST%20Challenge%202019/challenges/Mini-Challenge%201/entries/California%20State%20University/"><font color = blue><em>Vast Challenge 2021.</em></font></a>. The data has</p>
+<ul>
+<li>Microblog records that have been identified by automated filters as being potentially relevant to the ongoing incident.</li>
+<li>Text transcripts of emergency dispatches by the Abila, Kronos local police and fire departments.</li>
+<li>Geospatial data and map of Abila and Kronos Island.</li>
+<li>Ma and background documents.</li>
+</ul>
+<hr />
+<h1 id="the-overall-procedure.">3.0 The overall procedure.</h1>
+<p>The overall procedure is depicted in the picture.</p>
+<p><img src="image/proposal1.PNG" style="width:60.0%" /></p>
+<h3 id="the-task-one">The task one</h3>
+<ol type="1">
+<li>Using basic feature of junk and meaningful records in microblog to conduct initial identification and classification.</li>
+<li>Compare the records of the police and fire department to classify false posts and valid event records, further improving features extraction.</li>
+<li>Classify meaningful record and junk.</li>
+</ol>
+<p>Two methods would be used to present to identify significant record and junk:</p>
+<ul>
+<li>Using word cloud present key words of meaningful post and junk post.</li>
+<li>Using histogram or bar chart present the words features(like sentence length) of meaningful and junk post.</li>
+</ul>
+<h3 id="the-task-two">The task two</h3>
+<p>Meaningful Record after validation would be used in task 2.</p>
+<ul>
+<li>Label event with risk involved which ranking from level 1 to level 5 according to its influence and severity. And level 5 is the most serious.</li>
+<li>Using regular expression to extract the number of people involved in events.</li>
+<li>The distribution of event with multiple risks would be presented over the course of the evening.</li>
+</ul>
+<p>The original thought of visualization is below:</p>
+<p><img src="image/proposal2.PNG" style="width:70.0%" /></p>
+<h3 id="the-task-three">The task three</h3>
+<p>Meaningful Record after validation would be used in task 3.</p>
+<ul>
+<li>Integrating geospatial data to present the location of events with various risks.</li>
+<li>Clustering events based on variables ‘Time’, ‘Latitude’, ‘Longitude’ and risk level to show event distributions with some same features.</li>
+</ul>
+<p>The original thought of visualization is below:</p>
+<p><img src="image/proposal3.PNG" style="width:80.0%" /></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
