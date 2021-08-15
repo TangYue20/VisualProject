@@ -8,4 +8,6 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+![](image/VAposter (1).jpg)
+
 
